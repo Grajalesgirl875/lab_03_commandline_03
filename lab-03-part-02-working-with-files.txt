@@ -190,7 +190,7 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
-
+q brings you bake to your derectory
 
 
 ==========

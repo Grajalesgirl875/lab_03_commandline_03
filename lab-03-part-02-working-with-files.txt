@@ -64,19 +64,27 @@ total 0
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
-
+cp bar.txt baz.txt
+bar.txt	baz.txt	foo.txt
 
 ==========
 10. Delete the file called bar.txt and then list the files again.
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
+ent-v314-016:my_files student$ rm bar.txt
+ent-v314-016:my_files student$ ls
+baz.txt	foo.txt
+
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
+ent-v314-016:my_files student$ mv foo.txt qux.txt
+ent-v314-016:my_files student$ ls
+baz.txt	qux.txt
 
 
 
@@ -92,6 +100,8 @@ Write the command that you used to move the file.  Copy and paste the output of 
 
 Write out the command that you used and what happened.
 ----------
+ent-v314-016:mtec1002-lab-03 student$ rmdir my_folders
+rmdir: my_folders: No such file or directory
 
 
 
@@ -100,6 +110,8 @@ Write out the command that you used and what happened.
 
 Write out the command that you used and what happened.
 ----------
+ent-v314-016:mtec1002-lab-03 student$ rm my_folders
+rm: my_folders: No such file or directory
 
 
 
@@ -122,7 +134,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+It lists the contents of books/other/pg1232.txt
 
 
 ==========
@@ -134,6 +146,15 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
+The Project Gutenberg EBook of The Prince, by Nicolo Machiavelli
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: The Prince
 
 
 
@@ -146,6 +167,17 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
+ent-v314-016:mtec1002-lab-03 student$ tail books/other/pg1232.txt
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
 
 
 

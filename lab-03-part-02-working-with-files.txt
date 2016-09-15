@@ -18,7 +18,7 @@ Follow the instructions line-by-line.
 [NO OUTPUT]
 ----------
 ==========
-3. Change your directory mtec1002-lab-03
+3. Change your directory 
 [NO OUTPUT]
 ----------
 ==========
@@ -198,15 +198,20 @@ q brings you bake to your derectory
 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
-
-
-
+I would use more to view a text file one page at a time, press spacebar to go to the next page
+I would use less navigate the page up/down 
+I would use cat to join multiple files together and print the result
+I would use tail to display the last part of the file
+I would use head to find the first ten lines of a file
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
-
+wc -w : prints the number of words in a file.
+77986 words
 
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+wc -l : Prints the number of lines in a file.
+13310 lines

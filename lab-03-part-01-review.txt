@@ -380,7 +380,16 @@ pg84.txt	pg86.txt
 
 Write the command(s) that you used to do this below:
 ----------
-cd 
+ent-v314-016:~ student$ cd mtec1002-lab-03
+ent-v314-016:mtec1002-lab-03 student$ ls
+books		logs		my_files	web
+ent-v314-016:mtec1002-lab-03 student$ cd books
+ent-v314-016:books student$ ls
+other		science-fiction
+ent-v314-016:books student$ cd science-fiction
+ent-v314-016:science-fiction student$ 
+
+
 ==========
 OPTIONAL
 13. Immediately change back to the mtec1002-lab-03 folder with a single command using a *relative* path.
